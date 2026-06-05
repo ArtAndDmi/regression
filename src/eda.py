@@ -7,6 +7,8 @@ pd.set_option("display.width", None)
 pd.set_option("display.max_colwidth", None)
 
 
+
+
 def run_data_quality_report(df: pd.DataFrame) -> None:
     print("=" * 80)
     print("DATA QUALITY REPORT")
